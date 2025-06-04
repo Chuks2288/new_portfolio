@@ -12,7 +12,7 @@ export const Hero = () => {
     return (
         <section
             id="home"
-            className="w-full flex flex-col-reverse md:flex-row items-center justify-between gap-10 md:gap-6 px-4 md:px-6 py-10 md:h-[467px] bg-white dark:bg-[#0F172A]"
+            className="min-w-full flex flex-col-reverse md:flex-row items-center justify-between gap-10 md:gap-6 px-4 md:px-6 py-10 md:h-[467px] bg-white dark:bg-[#0F172A]"
         >
             <div className="flex-1 flex flex-col items-center md:items-start text-center md:text-left gap-6 max-w-xl">
                 <h1 className="text-3xl md:text-4xl font-bold text-blue-950 dark:text-white leading-snug md:leading-tight">

@@ -264,3 +264,15 @@ export const experiences: Experience[] = [
         ],
     },
 ];
+
+
+
+
+export const gallery = [
+    {
+        image: "",
+        githubLink: "",
+        websiteLink: "",
+        category: "",
+    }
+]

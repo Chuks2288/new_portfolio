@@ -266,6 +266,14 @@ export const experiences: Experience[] = [
 ];
 
 
+export const portfolioCategorySearch = [
+    { label: "All", value: "all" },
+    { label: "UI Design", value: "ui-design" },
+    { label: "Web Templates", value: "web-templates" },
+    { label: "Mobile Apps", value: "mobile-apps" },
+    // { label: "Logo", value: "logo" },
+    // { label: "Branding", value: "branding" },
+]
 
 
 export const gallery = [

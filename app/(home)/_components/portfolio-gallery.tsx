@@ -1,11 +1,11 @@
 import React from 'react'
-import PortfolioSearch from './portfolio-search'
 import PortfolioGalleryItems from './portfolio-gallery-items'
+import PortfolioSearchCategory from './portfolio-search-category'
 
 const PortfolioGallery = () => {
     return (
         <div>
-            <PortfolioSearch />
+            <PortfolioSearchCategory />
             <PortfolioGalleryItems />
         </div>
     )

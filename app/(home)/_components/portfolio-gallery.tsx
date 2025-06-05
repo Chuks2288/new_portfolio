@@ -1,12 +1,16 @@
-import React from 'react'
+'use client'
+
+import React, { useState } from 'react'
 import PortfolioGalleryItems from './portfolio-gallery-items'
 import PortfolioSearchCategory from './portfolio-search-category'
 
 const PortfolioGallery = () => {
+    const [active, setActive] = useState('all')
+
     return (
         <div>
-            <PortfolioSearchCategory />
-            <PortfolioGalleryItems />
+            <PortfolioSearchCategory active={active} setActive={setActive} />
+            <PortfolioGalleryItems active={active} />
         </div>
     )
 }
